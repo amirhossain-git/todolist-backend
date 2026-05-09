@@ -1,0 +1,22 @@
+{
+  "name": "todolistapp-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express + MongoDB REST API for Todo List app",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
+
